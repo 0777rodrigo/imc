@@ -1,0 +1,59 @@
+body{
+    
+background: linear-gradient(red,black);
+height: 100vh;
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+
+.caixa{
+
+background:linear-gradient(silver,darkgray);
+width: 300px;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+padding: 50px;
+height: 200px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+border:navy solid;
+
+}
+
+#peso{
+
+font-size: 20px;
+background-color: darkgray;
+margin: 0;
+font-weight: bold;
+border-radius: 10px;
+border: solid;
+
+}
+
+#altura{
+
+font-size: 20px;
+background-color: darkgray;
+margin: 0;
+font-weight: bold;
+border-radius: 10px;
+border: none;
+border: solid;
+
+}
+
+#calcular{
+
+font-size: 20px;
+background: darkgoldenrod;
+border-radius: 10px;
+padding: 10px;
+cursor: pointer;
+border: solid;
+
+}
